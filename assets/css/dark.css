@@ -1,0 +1,33 @@
+html {
+    color:#bfbfbf !important;
+    background-image:none !important;
+    background:#1f1f1f !important;
+
+    filter: contrast(100%) brightness(100%) saturate(100%);
+}
+
+body,
+body > .container {
+    background-color:#1f1f1f;
+    background-image:none !important;
+}
+
+input, select, textarea, button {
+    color:#bfbfbf;
+    background-color:#1f1f1f;
+    border-color: #616161 !important;
+}
+
+input[type="radio"]::before,
+input[type="radio"]::after {
+    background-color: #616161 !important;
+}
+
+text {
+    fill:#bfbfbf;
+}
+
+font {
+    color:#bfbfbf;
+}
+

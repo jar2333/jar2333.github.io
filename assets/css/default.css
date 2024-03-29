@@ -6,6 +6,7 @@ body {
     font-family: 'Crimson Text', serif;
     font-size: 18px;
     line-height: 1.4em;
+    color: #bfbfbf !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,7 +20,11 @@ p {
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-    color: #333;
+    color: rgb(191, 191, 191);
+}
+
+a {
+    color: salmon
 }
 
 pre {
@@ -28,7 +33,7 @@ pre {
 }
 
 code, pre {
-    background-color: #ddd;
+    background-color: #302f2f;
 }
 
 body>header h1 {
@@ -41,7 +46,7 @@ body>header h2 {
 }
 
 body>header a, body>header a:hover {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -52,14 +57,14 @@ menu {
 
 nav {
     text-align: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 nav a {
-    color: #000;
+    color: rgb(191, 191, 191);
     text-decoration: none;
     padding: 0 2em;
 }

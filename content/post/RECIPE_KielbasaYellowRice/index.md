@@ -1,0 +1,43 @@
++++
+author = "Jose A. Ramos"
+title = "Recipe: Kielbasa Yellow Rice"
+date = "2024-12-01"
+# description = ""
+categories = [
+    "Recipes"
+]
+tags = [
+    "recipe", "cooking", "food"
+]
+# image = "untitled.jpg"
++++
+
+Obtaining a rice cooker has been one of the best kitchen boons ever. Given how prominent rice is in the staple Puerto Rican dishes (rice & beans, yellow rice, etc...), being able to effortlessly make it means I get to spend less time cooking and more time doing anything else! Not to disparage cooking of course, as I derive a lot of enjoyment from it. But admittedly, cooking is a huge time sink. Being able to use the stove-top for the meats or beans while having rice cook in the background is a big time-saver, and reduces cognitive load.
+
+With that newfound efficiency, I was able to whip up a quick dish that ended up surprisingly delicious. It's probably my best attempt at yellow rice, and I figured I'd document it for my own future use. The dish itself is very versatile, as the vegetables can be replaced for anything you might like. As for the meat, any fatty meats work really well, such that the rice gets infused with the flavors of the meat. A good alternative is bacon.
+
+## Ingredients:
+
+- 2 cups of rice (I used medium grain)
+- 2.5 cups of water
+- 1/2 of a Kielbasa sausage, sliced
+- 1/2 a red onion, diced (alt. 1 yellow onion)
+- 3 cloves of garlic, minced
+- 1 red bell pepper, coarsely chopped (can used canned)
+- 2 white mushrooms, thinly sliced
+- 2 green olives, sliced in half
+- A few leaves of fresh cilantro
+- 1 tablespoon of sofrito
+- 1 packet of chicken bouillon (alt. replace water with chicken stock)
+- 1/2 packet of sazón (alt. annatto, cumin, garlic powder & MSG)
+- 3 pinches of salt
+- 1 tablespoon of olive oil
+- 1/2 tablespoon of butter
+
+## Steps
+
+1) Put the olive oil in a pot, and wait until hot. Drop the onions, pepper, and mushroom, and fry for 3-4 minutes while stirring until softened. Then, add the Kielbasa, garlic, cilantro, and sofrito, still stirring. Let sit for another 3-4 minutes. Turn off the heat.
+
+2) Add the rice and the water to a rice cooker. Add the olives, chicken bouillon, sazón, butter, salt, and the rest of the ingredients in the pot to the rice cooker. Mix together until the bouillon, sazón and salt are dissolved. Turn on the rice cooker and let cook. Once it finishes, serve.
+
+NOTE: The rice cooker might finish early, leaving the rice undercooked. If so, move the rice around, making sure to scrape the bottom to prevent burning of the rice. Drizzle a couple of teaspoons of water to the rice, spread across the bowl. Then, turn it on again. Once it finishes, let the steam inside sit for about 5 minutes to let the rice fully cook.

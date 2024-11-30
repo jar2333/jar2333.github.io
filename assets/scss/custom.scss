@@ -1,1 +1,13 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+.widget-title-section {
+    display: flex; 
+    flex-direction: row;
+    justify-content: start; 
+    align-content: center;
+
+    .widget-icon {
+        svg {
+            padding-bottom: 12px;
+        }
+    }
+}

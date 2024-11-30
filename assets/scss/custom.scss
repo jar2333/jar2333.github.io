@@ -1,4 +1,6 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+
+/** General Widget Styling **/
 .widget-title-section {
     display: flex; 
     flex-direction: row;
@@ -13,6 +15,7 @@
     }
 }
 
+/** Search Form Widget Styling **/
 .search-form {
     --button-size: 30;
 
@@ -24,5 +27,22 @@
         top: 1px;
         width: var(--button-size);
         padding: 0 15px;
+    }
+}
+
+/** TAG STYLING **/
+.tagCloud {
+    .trueTags {
+        a {
+            padding: 5px 20px;
+            font-size: 13px;
+        }
+    }
+}
+
+.article-tags {
+    a {
+        padding: 5px 20px;
+        font-size: 13px;
     }
 }

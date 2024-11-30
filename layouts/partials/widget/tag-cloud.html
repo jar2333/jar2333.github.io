@@ -9,10 +9,10 @@
         </div>
     </div>
 
-    <div class="tagCloud-tags">
+    <div class="tagCloud-tags trueTags">
         {{ range first $limit $context.Site.Taxonomies.tags.ByCount }}
             <a href="{{ .Page.RelPermalink }}" class="font_size_{{ .Count }}">
-                {{ .Page.Title }}
+                {{ lower .Page.Title }}
             </a>
         {{ end }}
     </div>

@@ -139,12 +139,12 @@ toLower = false
   name = "categories"
   weight = 200
 
-[markup.goldmark.extensions.passthrough]
-enable = true
+# [markup.goldmark.extensions.passthrough]
+# enable = true
 
-  [markup.goldmark.extensions.passthrough.delimiters]
-  block = [ [ "\\[", "\\]" ], [ "$$", "$$" ] ]
-  inline = [ [ "\\(", "\\)" ] ]
+#   [markup.goldmark.extensions.passthrough.delimiters]
+#   block = [ [ "\\[", "\\]" ], [ "$$", "$$" ] ]
+#   inline = [ [ "\\(", "\\)" ] ]
 
 [markup.goldmark.renderer]
 unsafe = true

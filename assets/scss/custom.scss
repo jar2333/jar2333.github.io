@@ -11,3 +11,17 @@
         }
     }
 }
+
+.search-form {
+    --button-size: 30;
+
+    input {
+        padding: 15px 15px 15px 20px;
+    }
+
+    button {
+        top: 1px;
+        width: var(--button-size);
+        padding: 0 15px;
+    }
+}

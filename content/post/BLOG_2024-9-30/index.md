@@ -9,7 +9,7 @@ categories = [
 tags = [
     "blog",
 ]
-# image = "untitled.jpg"
+image = "quijote.png"
 +++
 
 Even now as I sit here writing this, I am wracked with an intense hesitance. Not without reason, as I _promised_ myself that I’d go to sleep by midnight, so as to avoid the inevitable complications. Here I sit at the kitchen counter, staring at the dishes dirty in the sink, having taken a Benadryl, neglecting my resolve to actually do a thing for once (or, to do <ins>nothing</ins>, I suppose?). At the very least, one of these failures in the venture of habit formation constitutes some tangible progress in the form of a first step: an acknowledgment. That I did set this goal for myself, that I did work up to it (having cut a conversation among friends adequately short), and that it simply did not work out, as my mind was too preoccupied with the current matter to sleep. No excuses for the dishes, however… 

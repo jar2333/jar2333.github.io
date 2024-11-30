@@ -10,8 +10,8 @@ menu:
         weight: -50
         params:
             icon: link
-
 comments: false
+readingTime: false
 ---
 
-Work in Progress
+Work in progress

@@ -72,7 +72,7 @@ favicon = "/favicon.ico"
     [params.comments.utterances]
     issueTerm = "pathname"
     repo = "jar2333/jar2333.github.io"
-    # label = "comments"
+    label = "comments"
 
 [[params.widgets.homepage]]
 type = "search"

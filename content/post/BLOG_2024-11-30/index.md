@@ -8,6 +8,8 @@ categories = [
 ]
 tags = [
     "blog",
+    "vent",
+    "life"
 ]
 image = "7.jpg"
 +++

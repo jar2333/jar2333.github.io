@@ -31,18 +31,7 @@
 }
 
 /** TAG STYLING **/
-.tagCloud {
-    a.trueTag {
-        padding: 5px 5px;
-        font-size: 13px;
-    }
-}
-
-.article-tags {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-
+.tagContainer {
     a.trueTag {
         padding: 5px 5px;
         font-size: 13px;

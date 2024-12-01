@@ -1,7 +1,10 @@
 {{ if .Params.Tags }}
     <section class="article-tags">
-        {{ range (.GetTerms "tags") }}
-            <a href="{{ .RelPermalink }}">{{ lower .LinkTitle }}</a>
-        {{ end }}
+        <h3 class="section-title">Tags</h3>
+        <div>
+            {{ range (.GetTerms "tags") }}
+                <a class="trueTag" href="{{ .RelPermalink }}">{{ lower .LinkTitle }}</a>
+            {{ end }}
+        </div>
     </section>
 {{ end }}

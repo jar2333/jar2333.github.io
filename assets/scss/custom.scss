@@ -32,17 +32,19 @@
 
 /** TAG STYLING **/
 .tagCloud {
-    .trueTags {
-        a {
-            padding: 5px 20px;
-            font-size: 13px;
-        }
+    a.trueTag {
+        padding: 5px 5px;
+        font-size: 13px;
     }
 }
 
 .article-tags {
-    a {
-        padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    a.trueTag {
+        padding: 5px 5px;
         font-size: 13px;
     }
 }

@@ -12,6 +12,7 @@ menu:
             icon: link
 comments: false
 readingTime: false
+license: false
 ---
 
 Work in progress

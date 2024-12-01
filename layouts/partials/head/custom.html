@@ -1,0 +1,25 @@
+<script>
+    function hashCode(s) {
+        for (var h = 0, i = 0; i < s.length; h &= h) {
+            h = 857 * h + s.charCodeAt(i++);
+        }
+        return h;
+    }
+
+    function getColor(str) {
+        const hash = hashCode(str)
+        console.log(str)
+        console.log(hash)
+        const hue = hash % 360;
+        const lightness = 37 < hue && hue < 206 ? "35%" : "50%" 
+        return "hsl(" + hue.toString() + ", 100%, " + lightness + ")";
+    }
+
+    setTimeout(function () {
+        const tags = document.querySelectorAll(".tagContainer a.trueTag");
+        tags.forEach((t) => {
+            const text = t.textContent.trim();
+            t.style.backgroundColor = getColor(text)
+        });
+    }, 1);
+</script>

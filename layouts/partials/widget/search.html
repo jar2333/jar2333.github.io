@@ -6,7 +6,7 @@
             <h2 class="widget-title section-title">{{ T "search.title" }}</h2>
 
             <div class="widget-icon">
-                {{ partial "helper/icon" "search" }}
+                {{ partial "helper/icon" "circle-search" }}
             </div>
         </div>
         <form action="{{ $searchPage.RelPermalink }}" class="search-form" {{ with .OutputFormats.Get "json" -}}data-json="{{ .Permalink }}" {{- end }}>

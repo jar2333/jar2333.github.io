@@ -9,7 +9,8 @@ categories = [
 tags = [
     "blog",
     "vent",
-    "life"
+    "life",
+    "writing"
 ]
 image = "7.jpg"
 +++

@@ -8,6 +8,7 @@ categories = [
 ]
 tags = [
     "blog",
+    "writing"
 ]
 image = "quijote.png"
 +++

@@ -32,6 +32,9 @@
 
 /** TAG STYLING **/
 .tagContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
     a.trueTag {
         padding: 5px 5px;
         font-size: 13px;

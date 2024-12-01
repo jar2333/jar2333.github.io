@@ -10,7 +10,7 @@
         const hash = hashCode(str)
         console.log(str)
         console.log(hash)
-        const hue = hash % 360;
+        const hue = (hash + ((37 * hash) % 31)) % 360;
         const lightness = 37 < hue && hue < 206 ? "35%" : "45%" 
         return "hsl(" + hue.toString() + ", 100%, " + lightness + ")";
     }

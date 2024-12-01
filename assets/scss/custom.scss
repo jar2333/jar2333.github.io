@@ -38,3 +38,16 @@
         color: white;
     }
 }
+
+/** Article Details **/
+footer.article-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    .article-time-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 5px;
+    }
+}

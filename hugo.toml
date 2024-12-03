@@ -105,9 +105,9 @@ card = "summary_large_image"
 enabled = false
 local = false
 
-  [params.colorScheme]
-  toggle = true
-  default = "auto"
+[params.colorScheme]
+toggle = true
+default = "auto"
 
 [params.imageProcessing.cover]
 enabled = true

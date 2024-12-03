@@ -81,7 +81,7 @@ type = "search"
 type = "archives"
 
   [params.widgets.homepage.params]
-  limit = 5
+  limit = 10
 
 [[params.widgets.homepage]]
 type = "categories"

@@ -11,7 +11,7 @@
 
     <div class="tagCloud-tags tagContainer">
         {{ range first $limit $context.Site.Taxonomies.tags.ByCount }}
-            <a href="{{ .Page.RelPermalink }}" class="trueTag font_size_{{ .Count }}">
+            <a href="{{ .Page.RelPermalink }}" class="trueTag" {{ with .Count }}style="font-size: {{ add 12 . }}px;"{{ end }}>
                 {{ lower .Page.Title }}
             </a>
         {{ end }}

@@ -35,6 +35,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 7px;
+    align-items: center;
+    justify-items: center;
     a.trueTag {
         padding: 5px 5px;
         font-size: 13px;

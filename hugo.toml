@@ -29,7 +29,7 @@ subtitle = "Blogs, ensayos, e informes de tecnología, ficción, cocina y filoso
 [services.googleAnalytics]
 
 [pagination]
-pagerSize = 3
+pagerSize = 7
 
 [permalinks]
 post = "/p/:slug/"

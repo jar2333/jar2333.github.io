@@ -133,6 +133,15 @@ main = [ ]
 
     [menu.social.params]
     icon = "brand-linkedin"
+  
+  [[menu.social]]
+  identifier = "rss"
+  name = "RSS"
+  url = "./index.xml"
+
+    [menu.social.params]
+    icon = "rss"
+
 
 [related]
 includeNewer = true

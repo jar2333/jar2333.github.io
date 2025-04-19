@@ -155,3 +155,5 @@ dist
 .pnp.*
 
 .DS_Store
+
+site/public

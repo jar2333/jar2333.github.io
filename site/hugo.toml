@@ -1,7 +1,7 @@
 baseURL = 'https://samoyed.blog/'
 languageCode = 'en-us'
 title = 'samoyed.blog'
-theme = 'Stack'
+# theme = 'Stack'
 
 copyright = "Jose A. Ramos Sanchez"
 DefaultContentLanguage = "en"

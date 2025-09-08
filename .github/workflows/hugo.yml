@@ -48,7 +48,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Build posts from vault
+      - name: Build posts from Blog
         run: "npm run build"
       - name: Build with Hugo
         env:

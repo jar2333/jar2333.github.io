@@ -12,10 +12,10 @@ hugo.linux
 # Temporary lock file while building
 /.hugo_build.lock
 
-# OBSIDIAN INTEGRATION: Ignore all except the dedicated "blog" directory
-/vault/*
-!/vault/blog
-!/vault/images
+# OBSIDIAN INTEGRATION: Ignore all except the dedicated "posts" directory
+/Blog/*
+!/Blog/posts
+!/Blog/images
 
 # Logs
 logs

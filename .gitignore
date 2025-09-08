@@ -14,8 +14,8 @@ hugo.linux
 
 # OBSIDIAN INTEGRATION: Ignore all except the dedicated "posts" directory
 /Blog/*
-!/Blog/posts
-!/Blog/images
+!/Blog/*Posts
+!/Blog/*Images
 
 # Logs
 logs

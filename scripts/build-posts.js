@@ -6,7 +6,7 @@ const matter = require('gray-matter');
 const fse = require('fs-extra');
 
 const VAULT_DIR = path.resolve(__dirname, '../Blog');
-const BLOG_DIR = path.join(VAULT_DIR, 'posts');
+const BLOG_DIR = path.join(VAULT_DIR, '1 - Posts');
 const IMAGES_DIR = path.join(VAULT_DIR, 'images');
 const OUTPUT_DIR = path.resolve(__dirname, '../site/content/post');
 

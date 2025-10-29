@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'samoyed.blog'
 # theme = 'Stack'
 
-copyright = "Jose A. Ramos Sanchez"
+copyright = "E. A. Ramos"
 DefaultContentLanguage = "en"
 hasCJKLanguage = false
 
@@ -63,7 +63,7 @@ favicon = "/favicon.ico"
 
     [params.article.license]
     enabled = true
-    default = "Jose A. Ramos Sanchez. All rights reserved."
+    default = "E. A. Ramos. All rights reserved."
 
   [params.comments]
   enabled = true

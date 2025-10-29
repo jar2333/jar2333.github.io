@@ -57,3 +57,21 @@ footer.article-time {
         gap: 5px;
     }
 }
+
+/** Ordered lists **/
+section>ol {
+    list-style-type: lower-roman; /* Changes numbers to uppercase Roman numerals */
+    
+}
+
+section>ol>li::marker {
+    color: var(--card-text-color-tertiary); /* Changes only the marker color */
+    
+    font-size: 1.0em; /* Adjusts marker size */
+    font-weight: bold; /* Makes markers bold */
+}
+
+section>ol>li {
+    padding-left: 0.5em;
+    margin-right: 20em;
+}

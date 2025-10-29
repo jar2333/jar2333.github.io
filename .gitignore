@@ -17,6 +17,8 @@ hugo.linux
 !/Blog/*Posts
 !/Blog/*Images
 
+/site/content/post/*
+
 # Logs
 logs
 *.log

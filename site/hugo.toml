@@ -13,7 +13,7 @@ title = "samoyed.blog"
 weight = 1
 
 [languages.en.params.sidebar]
-subtitle = "Blogs, essays, and write-ups on computer science, fiction, cooking and philosophy"
+subtitle = "Blogs, essays, and write-ups on religion, theology, computer science, writing, cooking and philosophy"
 
 [languages.es]
 languageName = "Spanish"
@@ -21,7 +21,7 @@ title = "samoyed.blog"
 weight = 2
 
 [languages.es.params.sidebar]
-subtitle = "Blogs, ensayos, e informes de tecnología, ficción, cocina y filosofía"
+subtitle = "Blogs, ensayos, e informes de religión, tecnología, ficción, cocina y filosofía"
 
 # [services.disqus]
 # shortname = "hugo-theme-stack"

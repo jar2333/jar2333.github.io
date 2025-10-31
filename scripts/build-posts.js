@@ -9,9 +9,27 @@ const VAULT_DIR = path.resolve(__dirname, '../Blog');
 const BLOG_DIR = path.join(VAULT_DIR, '1 - Posts');
 const IMAGES_DIR = path.join(VAULT_DIR, '4 - Images');
 const OUTPUT_DIR = path.resolve(__dirname, '../site/content/post');
+const IMAGE_OUTPUT_DIR = path.resolve(__dirname, '../site/assets/img');
 
 function slugify(fileName) {
   return fileName.replace(/\.md$/, '');
+}
+
+function fixImages(fileName) {
+  return fileName.replace("](</4 - Images/", '](</assets/img/');
+}
+
+function copyImageToDir(filename, destDir) {
+  const imageFileName = path.basename(filename);
+  const sourceImagePath = path.join(IMAGES_DIR, imageFileName);
+  const destImagePath = path.join(destDir, imageFileName);
+
+  if (fs.existsSync(sourceImagePath)) {
+    fse.copyFileSync(sourceImagePath, destImagePath);
+    console.log(`Copied image for ${filename}: ${imageFileName}`);
+  } else {
+    console.warn(`Image file not found for ${filename}: ${imageFileName}`);
+  }
 }
 
 function buildPosts() {
@@ -20,15 +38,21 @@ function buildPosts() {
     return;
   }
 
-  const files = fs.readdirSync(BLOG_DIR).filter(file => file.endsWith('.md'));
+  const images = fs.readdirSync(IMAGES_DIR);
+  images.forEach(image => {
+    copyImageToDir(image, IMAGE_OUTPUT_DIR);
+  });
 
+  const files = fs.readdirSync(BLOG_DIR).filter(file => file.endsWith('.md'));
   files.forEach(file => {
     const filePath = path.join(BLOG_DIR, file);
     const rawContent = fs.readFileSync(filePath, 'utf-8');
-    const { data: frontmatter, content } = matter(rawContent);
+    const { data: frontmatter, content: initialContent } = matter(rawContent);
 
     const slug = slugify(file);
     const postDir = path.join(OUTPUT_DIR, slug);
+
+    const content = fixImages(initialContent);
 
     // Ensure output directory exists
     fse.ensureDirSync(postDir);
@@ -39,16 +63,7 @@ function buildPosts() {
 
     // Copy the image if specified
     if (frontmatter.image) {
-      const imageFileName = path.basename(frontmatter.image);
-      const sourceImagePath = path.join(IMAGES_DIR, imageFileName);
-      const destImagePath = path.join(postDir, imageFileName);
-
-      if (fs.existsSync(sourceImagePath)) {
-        fse.copyFileSync(sourceImagePath, destImagePath);
-        console.log(`Copied image for ${file}: ${imageFileName}`);
-      } else {
-        console.warn(`Image file not found for ${file}: ${imageFileName}`);
-      }
+      copyImageToDir(frontmatter.image, postDir);
     }
 
     console.log(`Processed: ${file}`);
